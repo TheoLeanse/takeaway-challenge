@@ -1,42 +1,32 @@
-Title
+Takeaway
 =======================
 
-## Synopsis
 
-TODO: Enter a description of your project here.
-
-![NAME_OF_IMAGE](http://ENTER_URL)
+![BOX_FOOD](http://www.smart-restaurants.co.uk/site/wp-content/uploads/2014/04/Chinese-Takeaway-Box-To-Take-Home.jpg)
 
 ## Technologies Used
 
-- LANGUAGE_ONE
-- LANGUAGE_TWO
-- FRAMEWORK
-- TESTING SUITES
+- Ruby
+- Rspec
 
-## Job List
-
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-
-## Favourite Code Snippet
+## My favourite bit of the code:
 
 ~~~
- TODO: paste code here
+  def price_of dish
+    @menu[dish]
+  end
 ~~~
 
-## Collaborators
+## Favourite part of the tests:
 
-- NAME_ONE (http://www.github.com/USERNAME)
-- NAME_TWO (http://www.github.com/USERNAME)
+~~~
+ let(:order         ) { double :order, items: { :burger => 9.99 } }
+ let(:notifier      ) { double :notifier, notify: nil }
+ let(:message_centre) { double :message_centre, process: nil }
+~~~
 
-## Still to complete/refactor
+I enjoyed mocking and stubbing the Till class!
 
-- [ ]
-- [ ]
+## Takeaways from Takeaway:
 
-## Takeaway
-
-TODO: Enter a personal reflection and/or things you learnt
+SOLID principles and BDD clicked for me with this project
