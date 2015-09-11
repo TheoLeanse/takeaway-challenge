@@ -1,6 +1,6 @@
 Takeaway
 =======================
-
+[![Code Climate](https://codeclimate.com/github/TheoLeanse/takeaway-challenge/badges/gpa.svg)](https://codeclimate.com/github/TheoLeanse/takeaway-challenge)
 
 ![BOX_FOOD](http://www.smart-restaurants.co.uk/site/wp-content/uploads/2014/04/Chinese-Takeaway-Box-To-Take-Home.jpg)
 
